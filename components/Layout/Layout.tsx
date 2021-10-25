@@ -19,7 +19,7 @@ export default function Layout({ children }: LayoutProps) {
       <footer className="flex justify-center px-8 pb-8">
         <div className="container">
           <hr className="w-full border-1 border-gray-200 dark:border-gray-600 my-8" />
-          <div className="flex justify-between">
+          <div className="flex flex-col gap-2 sm:flex-row sm:gap-0 sm:justify-between">
             <p className="text-gray-700 dark:text-white text-sm">
               Built with Next.js, Tailwind, and ▲ Vercel
             </p>
