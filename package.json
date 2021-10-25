@@ -1,6 +1,11 @@
 {
   "name": "portfolio-next",
-  "version": "0.1.0",
+  "version": "0.0.0",
+  "author": {
+    "name": "Matt Simpson",
+    "email": "hello@msmp.me",
+    "url": "https://msmp.me"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",
