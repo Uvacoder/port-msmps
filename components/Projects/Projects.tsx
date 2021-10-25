@@ -18,6 +18,8 @@ export default function Projects({ repositories }: Props) {
             rel="noopener noreferrer"
             href={url}
             className="transform-gpu hover:scale-[1.01] transition-all rounded-md p-4 bg-gray-200 dark:bg-gray-800 w-full sm:w-1/2"
+            data-splitbee-event={'Open Project'}
+            data-splitbee-event-project={name}
           >
             <div>
               <h4 className="font-bold text-brand-dark dark:text-white mb-3">

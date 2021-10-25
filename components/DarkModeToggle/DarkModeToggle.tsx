@@ -46,6 +46,7 @@ export default function DarkModeToggle() {
       type="button"
       className="text-brand-dark dark:text-white p-2 transition opacity-70 hover:opacity-100"
       onClick={toggleTheme}
+      data-splitbee-event="Toggle Theme"
     >
       <animated.svg
         width="18"

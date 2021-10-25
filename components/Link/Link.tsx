@@ -40,6 +40,8 @@ export default function Link({ href, target, children, ...props }: LinkProps) {
           rel={safe}
           href={href}
           className={className}
+          data-splitbee-event={'External Link'}
+          data-splitbee-event-url={href}
           {...props}
         >
           {children}
