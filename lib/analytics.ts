@@ -5,7 +5,9 @@ export const useAnalytics = () => {
   useEffect(() => {
     if (process.env.NODE_ENV === 'production') {
       splitbee.init({
-        token: process.env.NEXT_PUBLIC_SPLITBEE_TOKEN
+        token: process.env.NEXT_PUBLIC_SPLITBEE_TOKEN,
+        scriptUrl: '/bee.js',
+        apiUrl: '/_hive'
       });
     }
   }, []);
