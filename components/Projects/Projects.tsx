@@ -10,7 +10,7 @@ export default function Projects({ repositories }: Props) {
       <h3 className="font-bold text-xl text-brand-dark dark:text-white sm:mt-8">
         Projects
       </h3>
-      <div className="flex flex-col sm:flex-row gap-6 mt-4">
+      <div className="flex flex-col flex-wrap: wrap sm:flex-row gap-6 mt-4">
         {repositories.nodes.map(({ id, name, url, description }) => (
           <a
             key={id}
