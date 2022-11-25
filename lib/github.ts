@@ -10,7 +10,7 @@ export const getGitHubData = async () => {
 
   const query = gql`
     {
-      user(login: "msmps") {
+      user(login: "uvacoder") {
         repositories(last: 4, isFork: false, privacy: PUBLIC) {
           nodes {
             id
